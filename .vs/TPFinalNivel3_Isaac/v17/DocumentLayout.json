@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\emman\\OneDrive\\Escritorio\\Ejercicios C# Nivel 3\\TPFinalNivel3_Isaac\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{259E1076-55E9-44B1-9330-10BFBC413239}|Pokedex-app\\Pokedex-app.csproj|c:\\users\\emman\\onedrive\\escritorio\\ejercicios c# nivel 3\\tpfinalnivel3_isaac\\pokedex-app\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{259E1076-55E9-44B1-9330-10BFBC413239}|Pokedex-app\\Pokedex-app.csproj|solutionrelative:pokedex-app\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{259E1076-55E9-44B1-9330-10BFBC413239}|Pokedex-app\\Pokedex-app.csproj|c:\\users\\emman\\onedrive\\escritorio\\ejercicios c# nivel 3\\tpfinalnivel3_isaac\\pokedex-app\\pokemaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{259E1076-55E9-44B1-9330-10BFBC413239}|Pokedex-app\\Pokedex-app.csproj|solutionrelative:pokedex-app\\pokemaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PokeMaster.Master",
+              "DocumentMoniker": "C:\\Users\\emman\\OneDrive\\Escritorio\\Ejercicios C# Nivel 3\\TPFinalNivel3_Isaac\\Pokedex-app\\PokeMaster.Master",
+              "RelativeDocumentMoniker": "Pokedex-app\\PokeMaster.Master",
+              "ToolTip": "C:\\Users\\emman\\OneDrive\\Escritorio\\Ejercicios C# Nivel 3\\TPFinalNivel3_Isaac\\Pokedex-app\\PokeMaster.Master",
+              "RelativeToolTip": "Pokedex-app\\PokeMaster.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-09T17:20:13.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\emman\\OneDrive\\Escritorio\\Ejercicios C# Nivel 3\\TPFinalNivel3_Isaac\\Pokedex-app\\Default.aspx",
+              "RelativeDocumentMoniker": "Pokedex-app\\Default.aspx",
+              "ToolTip": "C:\\Users\\emman\\OneDrive\\Escritorio\\Ejercicios C# Nivel 3\\TPFinalNivel3_Isaac\\Pokedex-app\\Default.aspx",
+              "RelativeToolTip": "Pokedex-app\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-09T17:33:01.106Z",
+              "EditorCaption": ""
             }
           ]
         }
