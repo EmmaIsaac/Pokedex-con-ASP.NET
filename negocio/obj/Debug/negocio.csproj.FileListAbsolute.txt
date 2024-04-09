@@ -16,3 +16,12 @@ C:\Users\emman\OneDrive\Escritorio\ejemplos-ado-net-main\negocio\obj\Debug\negoc
 C:\Users\emman\OneDrive\Escritorio\ejemplos-ado-net-main\negocio\obj\Debug\negocio.csproj.Up2Date
 C:\Users\emman\OneDrive\Escritorio\ejemplos-ado-net-main\negocio\obj\Debug\negocio.dll
 C:\Users\emman\OneDrive\Escritorio\ejemplos-ado-net-main\negocio\obj\Debug\negocio.pdb
+C:\Users\emman\OneDrive\Escritorio\Ejercicios C# Nivel 3\TPFinalNivel3_Isaac\negocio\bin\Debug\negocio.dll
+C:\Users\emman\OneDrive\Escritorio\Ejercicios C# Nivel 3\TPFinalNivel3_Isaac\negocio\bin\Debug\negocio.pdb
+C:\Users\emman\OneDrive\Escritorio\Ejercicios C# Nivel 3\TPFinalNivel3_Isaac\negocio\bin\Debug\dominio.dll
+C:\Users\emman\OneDrive\Escritorio\Ejercicios C# Nivel 3\TPFinalNivel3_Isaac\negocio\bin\Debug\dominio.pdb
+C:\Users\emman\OneDrive\Escritorio\Ejercicios C# Nivel 3\TPFinalNivel3_Isaac\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+C:\Users\emman\OneDrive\Escritorio\Ejercicios C# Nivel 3\TPFinalNivel3_Isaac\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+C:\Users\emman\OneDrive\Escritorio\Ejercicios C# Nivel 3\TPFinalNivel3_Isaac\negocio\obj\Debug\negocio.csproj.Up2Date
+C:\Users\emman\OneDrive\Escritorio\Ejercicios C# Nivel 3\TPFinalNivel3_Isaac\negocio\obj\Debug\negocio.dll
+C:\Users\emman\OneDrive\Escritorio\Ejercicios C# Nivel 3\TPFinalNivel3_Isaac\negocio\obj\Debug\negocio.pdb
