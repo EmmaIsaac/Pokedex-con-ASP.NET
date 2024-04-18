@@ -35,13 +35,16 @@
             <ItemTemplate>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="<%#Eval("UrlImagen") %>" class="card-img-top" alt="Imagen de <%#Eval("Nombre") %>">
+                        <img src="<%#Eval("UrlImagen") %>" class="card-img-top" 
+                            alt="Imagen de <%#Eval("Nombre") %>">
                         <div class="card-body">
                             <p class="card-text">Nº <%#Eval("Numero") %></p>
                             <h5 class="card-title"><%#Eval("Nombre") %></h5>
                             <p class="card-text"><%#Eval("Descripcion") %>.</p>
                             <a href="DetallePokemon.aspx?=<%#Eval("Id") %>">Detalle</a>
-                            <asp:Button ID="btnEjemplo" runat="server" Text="Ejemplo" CssClass="btn btn-primary" CommandArgument='<%#Eval("Id") %>' CommandName="PokemonId" OnClick="btnEjemplo_Click" />
+                            <asp:Button ID="btnEjemplo" runat="server" Text="Ejemplo" 
+                                CssClass="btn btn-primary" CommandArgument='<%#Eval("Id") %>' 
+                                CommandName="PokemonId" OnClick="btnEjemplo_Click" />
                         </div>
                     </div>
                 </div>
