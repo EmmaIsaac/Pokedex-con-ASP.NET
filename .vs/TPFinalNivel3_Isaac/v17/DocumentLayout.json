@@ -3,19 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\emman\\OneDrive\\Escritorio\\Ejercicios C# Nivel 3\\TPFinalNivel3_Isaac\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{259E1076-55E9-44B1-9330-10BFBC413239}|Pokedex-app\\Pokedex-app.csproj|C:\\Users\\emman\\OneDrive\\Escritorio\\Ejercicios C# Nivel 3\\TPFinalNivel3_Isaac\\pokedex-app\\pokemonlista.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{259E1076-55E9-44B1-9330-10BFBC413239}|Pokedex-app\\Pokedex-app.csproj|solutionrelative:pokedex-app\\pokemonlista.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{259E1076-55E9-44B1-9330-10BFBC413239}|Pokedex-app\\Pokedex-app.csproj|C:\\Users\\emman\\OneDrive\\Escritorio\\Ejercicios C# Nivel 3\\TPFinalNivel3_Isaac\\pokedex-app\\formulariopokemon.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{259E1076-55E9-44B1-9330-10BFBC413239}|Pokedex-app\\Pokedex-app.csproj|solutionrelative:pokedex-app\\formulariopokemon.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{974D539C-098C-4E52-89FB-7B433F91DC0C}|negocio\\negocio.csproj|C:\\Users\\emman\\OneDrive\\Escritorio\\Ejercicios C# Nivel 3\\TPFinalNivel3_Isaac\\negocio\\pokemonnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{974D539C-098C-4E52-89FB-7B433F91DC0C}|negocio\\negocio.csproj|solutionrelative:negocio\\pokemonnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{259E1076-55E9-44B1-9330-10BFBC413239}|Pokedex-app\\Pokedex-app.csproj|c:\\users\\emman\\onedrive\\escritorio\\ejercicios c# nivel 3\\tpfinalnivel3_isaac\\pokedex-app\\formulariopokemon.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{259E1076-55E9-44B1-9330-10BFBC413239}|Pokedex-app\\Pokedex-app.csproj|solutionrelative:pokedex-app\\formulariopokemon.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{259E1076-55E9-44B1-9330-10BFBC413239}|Pokedex-app\\Pokedex-app.csproj|C:\\Users\\emman\\OneDrive\\Escritorio\\Ejercicios C# Nivel 3\\TPFinalNivel3_Isaac\\pokedex-app\\formulariopokemon.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{259E1076-55E9-44B1-9330-10BFBC413239}|Pokedex-app\\Pokedex-app.csproj|c:\\users\\emman\\onedrive\\escritorio\\ejercicios c# nivel 3\\tpfinalnivel3_isaac\\pokedex-app\\formulariopokemon.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{259E1076-55E9-44B1-9330-10BFBC413239}|Pokedex-app\\Pokedex-app.csproj|solutionrelative:pokedex-app\\formulariopokemon.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,20 +43,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FormularioPokemon.aspx.cs",
               "DocumentMoniker": "C:\\Users\\emman\\OneDrive\\Escritorio\\Ejercicios C# Nivel 3\\TPFinalNivel3_Isaac\\Pokedex-app\\FormularioPokemon.aspx.cs",
               "RelativeDocumentMoniker": "Pokedex-app\\FormularioPokemon.aspx.cs",
               "ToolTip": "C:\\Users\\emman\\OneDrive\\Escritorio\\Ejercicios C# Nivel 3\\TPFinalNivel3_Isaac\\Pokedex-app\\FormularioPokemon.aspx.cs",
               "RelativeToolTip": "Pokedex-app\\FormularioPokemon.aspx.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAcwCYAAAAtAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowCgAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T17:58:01.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "FormularioPokemon.aspx",
               "DocumentMoniker": "C:\\Users\\emman\\OneDrive\\Escritorio\\Ejercicios C# Nivel 3\\TPFinalNivel3_Isaac\\Pokedex-app\\FormularioPokemon.aspx",
               "RelativeDocumentMoniker": "Pokedex-app\\FormularioPokemon.aspx",
@@ -68,19 +64,7 @@
               "RelativeToolTip": "Pokedex-app\\FormularioPokemon.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-04-18T22:28:28.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PokemonLista.aspx",
-              "DocumentMoniker": "C:\\Users\\emman\\OneDrive\\Escritorio\\Ejercicios C# Nivel 3\\TPFinalNivel3_Isaac\\Pokedex-app\\PokemonLista.aspx",
-              "RelativeDocumentMoniker": "Pokedex-app\\PokemonLista.aspx",
-              "ToolTip": "C:\\Users\\emman\\OneDrive\\Escritorio\\Ejercicios C# Nivel 3\\TPFinalNivel3_Isaac\\Pokedex-app\\PokemonLista.aspx",
-              "RelativeToolTip": "Pokedex-app\\PokemonLista.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-04-10T01:00:17.561Z",
+              "WhenOpened": "2024-04-18T22:28:28.37Z",
               "EditorCaption": ""
             }
           ]

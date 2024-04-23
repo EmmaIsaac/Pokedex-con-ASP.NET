@@ -51,4 +51,25 @@
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-6">
+            <asp:UpdatePanel runat="server">
+                <ContentTemplate>
+                    <div class="mb-3">
+                        <asp:Button ID="btnEliminar" runat="server" Text="Eliminar" OnClick="btnEliminar_Click" CssClass="btn btn-danger" />
+                    </div>
+
+                    <%if (ConfirmaEliminacion)
+                        { %>
+                        <div class="mb-3">
+                            <asp:CheckBox Text="Confirmar eliminación" ID="chkConfirmaEliminacion" runat="server" />
+                            <asp:Button ID="btnConfirmaEliminar" runat="server" Text="Eliminar" OnClick="btnConfirmaEliminar_Click" CssClass="btn btn-outline-danger" />
+                        </div>
+
+                    <% }%>
+                </ContentTemplate>
+            </asp:UpdatePanel>
+        </div>
+    </div>
+
 </asp:Content>

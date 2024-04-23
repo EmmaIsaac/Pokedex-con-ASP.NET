@@ -11,9 +11,11 @@ namespace Pokedex_app
 {
     public partial class FormularioPokemon : System.Web.UI.Page
     {
+        public bool ConfirmaEliminacion { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
             txtId.Enabled = false;
+            ConfirmaEliminacion = false;
 
             try
             {
@@ -36,7 +38,7 @@ namespace Pokedex_app
 
                 //Configuracion si estamos modificando pokemon
                 string id = Request.QueryString["id"] != null ? Request.QueryString["id"].ToString() : "";
-                if (id != null && !IsPostBack) 
+                if (id != "" && !IsPostBack) 
                 { 
                     PokemonNegocio negocio = new PokemonNegocio();
                     //List<Pokemon> lista = negocio.listar(id);
@@ -54,6 +56,7 @@ namespace Pokedex_app
                     ddlDebilidad.SelectedValue = seleccionado.Debilidad.Id.ToString();
                     txtImagenUrl_TextChanged(sender, e);
                 }
+                
 
             }
             catch (Exception ex)
@@ -105,6 +108,28 @@ namespace Pokedex_app
         protected void txtImagenUrl_TextChanged(object sender, EventArgs e)
         {
             imgPokemon.ImageUrl = txtImagenUrl.Text;    
+        }
+
+        protected void btnEliminar_Click(object sender, EventArgs e)
+        {
+            ConfirmaEliminacion = true;
+        }
+
+        protected void btnConfirmaEliminar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (chkConfirmaEliminacion.Checked) 
+                {
+                    PokemonNegocio negocio = new PokemonNegocio();
+                    negocio.eliminar(int.Parse(txtId.Text));
+                    Response.Redirect("PokemonLista.aspx");
+                }
+            }
+            catch (Exception ex)
+            {
+                Session.Add("error", ex);
+            }
         }
     }
 }
