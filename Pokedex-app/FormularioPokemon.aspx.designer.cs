@@ -69,6 +69,15 @@ namespace Pokedex_app
         protected global::System.Web.UI.WebControls.Button btnAceptar;
 
         /// <summary>
+        /// btnDesactivar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnDesactivar;
+
+        /// <summary>
         /// txtDescripcion control.
         /// </summary>
         /// <remarks>

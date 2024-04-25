@@ -45,6 +45,9 @@ namespace Pokedex_app
                     //Pokemon seleccionado = lista[0];
                     Pokemon seleccionado = (negocio.listar(id))[0];
 
+                    //Guardar Pokemon seleccionado en la sesion
+                    Session.Add("pokeSeleccionado", seleccionado);
+
                     //Precargar todos los campos
                     txtId.Text = id;
                     txtNombre.Text = seleccionado.Nombre;
@@ -55,6 +58,12 @@ namespace Pokedex_app
                     ddlTipo.SelectedValue = seleccionado.Tipo.Id.ToString();
                     ddlDebilidad.SelectedValue = seleccionado.Debilidad.Id.ToString();
                     txtImagenUrl_TextChanged(sender, e);
+
+                    //Configurar acciones
+                    if (!seleccionado.Activo)
+                    {
+                        btnDesactivar.Text = "Reactivar";
+                    }
                 }
                 
 
@@ -130,6 +139,16 @@ namespace Pokedex_app
             {
                 Session.Add("error", ex);
             }
+        }
+
+        protected void btnDesactivar_Click(object sender, EventArgs e)
+        {
+            PokemonNegocio negocio = new PokemonNegocio();
+            Pokemon seleccionado = (Pokemon)Session["pokeSeleccionado"];
+
+            negocio.eliminarLogico(seleccionado.Id, !seleccionado.Activo);//se pasa un valor distinto para cambiar el que ya estaba
+            Response.Redirect("PokemonLista.aspx");
+
         }
     }
 }

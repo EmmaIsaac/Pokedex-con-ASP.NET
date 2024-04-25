@@ -15,7 +15,7 @@ namespace Pokedex_app
         protected void Page_Load(object sender, EventArgs e)
         {
             PokemonNegocio negocio = new PokemonNegocio();
-            ListaPokemon = negocio.listarConSP();
+            ListaPokemon = negocio.listarConSPActivos(); //antes iba ListarConSP, pero mostraba inactivos en Home
 
             if (!IsPostBack)
             {

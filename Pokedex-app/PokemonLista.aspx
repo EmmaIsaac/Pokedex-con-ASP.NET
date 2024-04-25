@@ -3,9 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <h1>
-        Lista de Pokemones!
-    </h1>
+    <h1>Lista de Pokemones!</h1>
 
     <asp:GridView ID="dgvPokemons" runat="server" DataKeyNames="Id" 
         cssClass="table table-striped table-hover" AutoGenerateColumns="false" 
@@ -15,6 +13,7 @@
             <asp:BoundField HeaderText="Número" DataField="Numero" />
             <asp:BoundField HeaderText="Nombre" DataField="Nombre" />
             <asp:BoundField HeaderText="Tipo" DataField="Tipo.Descripcion" />
+            <asp:CheckBoxField HeaderText="Activo" DataField="Activo" />  
             <asp:CommandField HeaderText="Acción" ShowSelectButton="true" SelectText="✍️" />
         </Columns>
     </asp:GridView>
