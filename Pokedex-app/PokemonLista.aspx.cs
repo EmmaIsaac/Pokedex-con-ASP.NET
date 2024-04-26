@@ -46,7 +46,7 @@ namespace Pokedex_app
 
         protected void chkAvanzado_CheckedChanged(object sender, EventArgs e)
         {
-            FiltroAvanzado = chkAvanzado.Checked;   
+            //FiltroAvanzado = chkAvanzado.Checked;   
             txtFiltro.Enabled = !FiltroAvanzado;
         }
 

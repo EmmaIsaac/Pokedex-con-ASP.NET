@@ -17,6 +17,7 @@
             </div>
         </div>
     </div>
+
     <%if (FiltroAvanzado)
         {%>
             <div class="row">
@@ -62,10 +63,11 @@
                 </div>
             </div>
     <%  } %>
+
     <asp:GridView ID="dgvPokemons" runat="server" DataKeyNames="Id" 
         cssClass="table table-striped table-hover" AutoGenerateColumns="false" 
         OnSelectedIndexChanged="dgvPokemons_SelectedIndexChanged" 
-        OnPageIndexChanging="dgvPokemons_PageIndexChanging" AllowPaging="true" PageSize="5">
+        OnPageIndexChanging="dgvPokemons_PageIndexChanging" AllowPaging="true" PageSize="10">
         <Columns>
             <asp:BoundField HeaderText="Número" DataField="Numero" />
             <asp:BoundField HeaderText="Nombre" DataField="Nombre" />
